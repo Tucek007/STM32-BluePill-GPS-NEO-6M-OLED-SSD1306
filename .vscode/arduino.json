@@ -1,0 +1,5 @@
+{
+    "board": "Arduino_STM32-master:Arduino_Core_STM32F1-USB_HID_Composite:BluePill_F103C8",
+    "configuration": "upload_method=STLinkMethod",
+    "port": "COM1"
+}
