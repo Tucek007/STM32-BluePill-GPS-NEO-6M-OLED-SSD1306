@@ -28,12 +28,12 @@ void loop()
     }
 
     Serial.print(String(gps.location.lat(), 5));
-    Serial.print(" ");
+    Serial.print(",");
     Serial.println(String(gps.location.lng(),5));
     
     oled.setTextXY(0, 0);
     oled.putString(String(gps.location.lat(),5));
-    oled.putString(" ");
+    oled.putString(",");
     oled.putString(String(gps.location.lng(),5));
 
     oled.setTextXY(2, 0);
